@@ -1,0 +1,14 @@
+version : 2
+models:
+  - name: stg_policy__data
+    description: one row one policy
+    columns:
+    - name: policy_number
+      description: "{{ docs('company_code') }}"
+      tests:
+      - unique
+      - not_null
+      
+      
+
+
