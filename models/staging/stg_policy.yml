@@ -1,0 +1,15 @@
+version : 2
+models:
+  - name: stg_policy__data
+    columns:
+    - name: policy_number
+      description: one row per policy
+      tests:
+      - unique
+      - not_null
+    - name: company_code
+      
+      
+      
+
+

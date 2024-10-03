@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: policy
+    database: kirthana
+    schema: public
+    tables:
+      - name: policy_data
+        freshness: Null
+      - name: FR_30_CY_RIDERS
